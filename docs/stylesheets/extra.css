@@ -249,3 +249,10 @@
   outline: 2px solid var(--md-accent-fg-color);
   outline-offset: 2px;
 }
+
+/* Título do header em negrito, inclusive durante o Text states swap. */
+.md-header .md-header__title,
+.md-header .md-header__title .md-header__topic,
+.md-header .md-header__title .t-text-swap {
+  font-weight: 700;
+}
