@@ -13,9 +13,8 @@ extra_css = ["stylesheets/extra.css"]
 
 [project.theme]
 language = "pt-BR"
-# Depois de enviar os arquivos para docs/assets, descomente as duas linhas:
-# logo = "assets/logo.svg"
-# favicon = "assets/favicon.png"
+logo = "assets/logo-dark.png"
+favicon = "assets/favicon.ico"
 features = ["navigation.sections", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"]
 # Temas claro e escuro com escolha manual no cabeçalho.
 # Primeira visita: respeita a preferência do sistema.
