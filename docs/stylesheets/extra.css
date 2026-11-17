@@ -196,14 +196,17 @@
   color: var(--ascendio-link-hover);
 }
 
-/* Tipografia Ascendio RP: navegação e índice — 13px. */
+/* Tipografia da navegação — valores independentes. */
 :root {
-  --ascendio-font-sidebar: 13px;
+  --ascendio-font-sidebar: 14px;
   --ascendio-font-toc: 13px;
 }
 .md-sidebar--primary .md-nav__link {
   font-size: var(--ascendio-font-sidebar);
 }
-.md-sidebar--secondary .md-nav__link {
-  font-size: var(--ascendio-font-toc);
+/* O índice usa spans .md-typeset internos, que definem o próprio font-size. */
+.md-sidebar--secondary .md-nav__link,
+.md-sidebar--secondary .md-nav__link .md-typeset,
+.md-sidebar--secondary .md-nav__link .md-ellipsis {
+  font-size: var(--ascendio-font-toc) !important;
 }
