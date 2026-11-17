@@ -13,7 +13,7 @@ extra_css = ["stylesheets/extra.css"]
 
 [project.theme]
 language = "pt-BR"
-logo = "assets/logo-dark.png"
+logo = "assets/favicon-96x96.png"
 favicon = "assets/favicon.ico"
 features = ["navigation.sections", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"]
 # Temas claro e escuro com escolha manual no cabeçalho.
