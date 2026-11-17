@@ -64,7 +64,8 @@
     width: auto;
     min-width: 151px;
     height: 36px;
-    padding: 0 6px 0 12px;
+    /* O ícone nativo do Zensical é posicionado sobre o botão. */
+    padding: 0 6px 0 36px;
     border: 0;
     border-radius: 9999px;
     font-size: 14px;
