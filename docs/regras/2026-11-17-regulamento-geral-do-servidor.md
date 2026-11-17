@@ -1,8 +1,6 @@
 ---
 title: Regulamento Geral do Servidor
 ---
-# Regulamento Geral do Servidor Ascendio
-
 Acreditamos que a diversão e o suporte aos jogadores são fundamentais, por isso nossa equipe tem como prioridade criar um ambiente agradável, imersivo e seguro para todos. Caso haja violação de alguma dessas normas, nossa equipe se encarregará da resolução.
 
 ## 1. Conduta e Respeito
