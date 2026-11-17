@@ -14,6 +14,20 @@ extra_css = ["stylesheets/extra.css"]
 [project.theme]
 language = "pt-BR"
 features = ["navigation.sections", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"]
-palette.scheme = "slate"
-palette.primary = "green"
-palette.accent = "amber"
+# Temas claro e escuro com escolha manual no cabeçalho.
+# Primeira visita: respeita a preferência do sistema.
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "green"
+accent = "amber"
+toggle.icon = "lucide/sun"
+toggle.name = "Alternar para modo escuro"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "green"
+accent = "amber"
+toggle.icon = "lucide/moon"
+toggle.name = "Alternar para modo claro"
