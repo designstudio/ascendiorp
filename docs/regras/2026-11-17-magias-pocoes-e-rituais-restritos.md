@@ -1,5 +1,5 @@
 ---
-title: Magias, Poções e Rituais Restritos
+title: Magias, Habilidades e Rituais Restritos
 ---
 Determinadas magias, poções e rituais possuem efeitos capazes de comprometer a liberdade narrativa, a integridade ou o desenvolvimento de outros personagens. Por esse motivo, sua utilização está sujeita a restrições específicas e, quando aplicável, à autorização prévia da equipe de Staff ou Storytelling. O uso indevido desses recursos poderá resultar na anulação das ações e na aplicação de penalidades administrativas.
 
