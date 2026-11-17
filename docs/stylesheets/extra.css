@@ -47,15 +47,57 @@
     padding-inline: 1rem;
   }
 }
-/* Campo de pesquisa em formato pill, inspirado no controle de busca do ChatGPT. */
-.md-search__form {
-  border-radius: 999px;
-  overflow: hidden;
-  box-shadow: none;
+/* Busca do header: botão de 36px inspirado na referência do ChatGPT.
+   A pesquisa/modal e o atalho nativos do Zensical permanecem intactos. */
+@media screen and (min-width: 60em) {
+  .md-header .md-search {
+    width: auto;
+    min-width: 0;
+    margin-left: .35rem;
+  }
+  .md-header .md-search__button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+    box-sizing: border-box;
+    width: auto;
+    min-width: 151px;
+    height: 36px;
+    padding: 0 6px 0 12px;
+    border: 0;
+    border-radius: 9999px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    white-space: nowrap;
+    cursor: pointer;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.05), 0 4px 16px rgba(0,0,0,.05);
+    transition: background-color 150ms ease, box-shadow 150ms ease;
+  }
+  [data-md-color-scheme="default"] .md-header .md-search__button {
+    background: rgba(253,253,253,.96);
+    color: #212121;
+  }
+  [data-md-color-scheme="slate"] .md-header .md-search__button {
+    background: #272a2c;
+    color: #f4f4f4;
+    box-shadow: 0 0 0 1px rgba(255,255,255,.09), 0 4px 16px rgba(0,0,0,.18);
+  }
+  [data-md-color-scheme="default"] .md-header .md-search__button:hover {
+    background: #f2f2f3;
+  }
+  [data-md-color-scheme="slate"] .md-header .md-search__button:hover {
+    background: #35393c;
+  }
+  .md-header .md-search__button:focus-visible {
+    outline: 2px solid var(--md-accent-fg-color);
+    outline-offset: 2px;
+  }
 }
-.md-search__input {
-  border-radius: inherit;
-}
+/* Keep Zensical's actual search input styling and behavior. */
+.md-search__form { border-radius: 999px; overflow: hidden; }
+.md-search__input { border-radius: inherit; }
 .md-search__form:focus-within {
   outline: 2px solid var(--md-accent-fg-color);
   outline-offset: 2px;
