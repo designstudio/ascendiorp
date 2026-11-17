@@ -1,20 +1,28 @@
 ---
-title: Famílias Bruxas e Doações Voluntárias
+title: Famílias Bruxas
 ---
-## Categorias de Famílias Bruxas
+As famílias bruxas representam linhagens e grupos familiares que contribuem para a construção de histórias e para o desenvolvimento do universo do Ascendio RP. Sua criação deverá possuir justificativa narrativa coerente, respeitar as regras gerais do servidor e ser previamente aprovada pela administração, mediante abertura de ticket.
 
-No Ascendio, existem três categorias de famílias bruxas, cada uma com regras específicas. A criação dessas famílias deve ser solicitada via ticket e aprovada pela administração. Famílias com mais de 3 membros sem aprovação da staff não serão consideradas famílias bruxas.
+### 1. Famílias Comuns
 
-1. **Famílias Comuns (Gratuitas):**
-  - Compostas por até 3 membros gratuitos.
-  - Para adicionar mais membros, é necessário adquirir slots adicionais mediante doação.
-  - A lore dessas famílias precisa ser aprovada por meio de ticket, atendendo a critérios estabelecidos e possuindo relevância para o universo do servidor.
-2. **Famílias Nobres:**
-  - Grupo de famílias exclusivo, com o número de vagas já completo.
-  - Novas vagas serão disponibilizadas apenas mediante anúncios oficiais ou propostas aprovadas pela administração.
+As famílias comuns poderão ser constituídas gratuitamente por até três membros. A inclusão de integrantes adicionais estará sujeita à disponibilidade de vagas e às condições estabelecidas pela administração, incluindo a aquisição de slots adicionais por meio de doações voluntárias.
 
-## Notas Importantes
+A história e a composição familiar deverão ser apresentadas para avaliação, respeitando a coerência com o universo mágico e as regras de criação de personagens.
 
-- O foco principal no Ascendio deve estar no seu personagem e na sua história individual, e não em construir uma família numerosa ou centralizar sua narrativa em um grupo grande.
-- Todos os itens na mochila serão perdidos após a Perda de Personagem (PD), exceto os **Itens de Doação**, que são exclusivos para aqueles com status correspondente.
+### 2. Famílias Nobres
 
+As famílias nobres representam linhagens reconhecidas dentro da ambientação do Ascendio RP, cuja criação e desenvolvimento dependem de justificativa narrativa consistente e aprovação prévia da administração.
+
+O reconhecimento de uma família como nobre não garante poderes, habilidades especiais, privilégios administrativos ou vantagens sobre outros jogadores. Eventuais características extraordinárias deverão seguir as regras específicas do servidor.
+
+### 3. Famílias Sagradas
+
+As famílias sagradas constituem uma categoria excepcional de linhagens reconhecidas pelo Ascendio RP. Atualmente, todas as vagas disponíveis encontram-se preenchidas.
+
+Novas vagas poderão ser disponibilizadas exclusivamente mediante anúncios oficiais ou propostas aprovadas pela administração, respeitando os critérios narrativos estabelecidos para essa categoria.
+
+### 4. Regras Gerais das Famílias
+
+O foco principal do Ascendio RP deverá permanecer no desenvolvimento individual dos personagens e na construção coletiva de histórias. A participação em famílias numerosas não deverá limitar a autonomia narrativa dos integrantes ou conferir vantagens indevidas sobre outros jogadores.
+
+Todas as famílias deverão respeitar os limites de integrantes, os critérios de aprovação e as demais condições estabelecidas pela administração. Alterações significativas na composição ou na história de uma família poderão exigir nova avaliação por meio de ticket.
