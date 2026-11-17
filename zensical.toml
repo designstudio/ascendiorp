@@ -7,7 +7,13 @@ docs_dir = "docs"
 site_dir = "site"
 copyright = "Ascendio RP — Sua história é apenas o começo."
 extra_css = ["stylesheets/extra.css"]
-nav = [{ "Regras" = "regras/index.md" }]
+nav = [
+  { "Regras" = [
+    { "Visão geral" = "regras/index.md" },
+    { "Regulamento Geral do Servidor" = "regras/2026-11-17-regulamento-geral-do-servidor.md" },
+    { "Regulamento de Hogwarts" = "regras/2026-11-17-regulamento-oficial-da-escola-de-magia-e-bruxaria-de-hogwarts.md" },
+  ] },
+]
 
 # Navegação automática: novas páginas criadas no Pages CMS aparecem na wiki.
 # Ao definir o domínio público, adicionar site_url para ativar navegação instantânea.
