@@ -1,28 +1,123 @@
-/* Identidade visual Ascendio RP — adaptada aos dois temas */
+/* Ascendio RP | Biblioteca Mágica
+   Interface minimalista inspirada nos padrões de espaçamento e componentes
+   de ChatGPT/shadcn. Mantém a tipografia nativa do Zensical. */
+
 :root {
-  --ascendio-emerald: #1e7a62;
-  --ascendio-gold: #c6a76a;
+  --ascendio-radius: 12px;
+  --ascendio-radius-lg: 16px;
+  --ascendio-transition: 160ms ease;
 }
-
 [data-md-color-scheme="default"] {
-  --md-typeset-a-color: #18664f;
-  --md-accent-fg-color: #946b20;
+  --md-typeset-a-color: #17674d;
+  --md-accent-fg-color: #17674d;
+  --ascendio-bg: #fafaf9;
+  --ascendio-panel: #fff;
+  --ascendio-border: #e5e7e5;
+  --ascendio-muted: #616b65;
+  --ascendio-hover: #f2f5f2;
+  --ascendio-focus: #22785a;
+  --md-default-bg-color: var(--ascendio-bg);
 }
-
 [data-md-color-scheme="slate"] {
-  --md-typeset-a-color: #7ec9a4;
-  --md-accent-fg-color: #d8b678;
+  --md-typeset-a-color: #86d4ab;
+  --md-accent-fg-color: #a4dfbd;
+  --ascendio-bg: #111513;
+  --ascendio-panel: #1b211e;
+  --ascendio-border: #333d37;
+  --ascendio-muted: #a6b6ab;
+  --ascendio-hover: #27332c;
+  --ascendio-focus: #86d4ab;
+  --md-default-bg-color: var(--ascendio-bg);
 }
 
-.md-typeset h1,
-.md-typeset h2 {
-  letter-spacing: -0.02em;
-}
+/* Conteúdo: legível, com espaço para respirar */
+.md-main__inner { margin-top: 1.55rem; }
+.md-content__inner { padding-bottom: 3rem; }
+.md-typeset { line-height: 1.75; }
+.md-typeset h1, .md-typeset h2 { letter-spacing: -.02em; }
+.md-typeset h1 { font-weight: 700; margin-bottom: 1.35rem; }
+.md-typeset h2 { margin-top: 2.25rem; }
+.md-typeset p { margin: 1em 0; }
 
-.md-typeset h1 {
-  font-weight: 700;
-}
-
+/* Cards de navegação: superfícies sutis e estados claros */
+.md-typeset .grid.cards > ul { gap: .9rem; }
 .md-typeset .grid.cards > ul > li {
-  border-radius: 14px;
+  background: var(--ascendio-panel);
+  border: 1px solid var(--ascendio-border);
+  border-radius: var(--ascendio-radius-lg);
+  box-shadow: none;
+  padding: 1.15rem 1.2rem;
+  transition: border-color var(--ascendio-transition),
+              background-color var(--ascendio-transition),
+              transform var(--ascendio-transition);
+}
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: var(--md-typeset-a-color);
+  background: var(--ascendio-hover);
+  transform: translateY(-2px);
+}
+.md-typeset .grid.cards > ul > li > p:first-child {
+  margin-top: .1rem;
+  font-weight: 650;
+}
+.md-typeset .grid.cards > ul > li hr {
+  border-bottom-color: var(--ascendio-border);
+  margin: .8rem 0;
+}
+.md-typeset .grid.cards a { text-underline-offset: .18em; }
+
+/* Navegação: alvos confortáveis, cantos arredondados */
+.md-nav__link {
+  border-radius: 9px;
+  padding: .34rem .5rem;
+  margin: .06rem 0;
+  transition: background-color var(--ascendio-transition),
+              color var(--ascendio-transition);
+}
+.md-nav__link:hover,
+.md-nav__link:focus-visible {
+  background: var(--ascendio-hover);
+}
+.md-nav__link--active { font-weight: 650; }
+.md-nav__link:focus-visible,
+.md-typeset a:focus-visible,
+.md-search__input:focus-visible {
+  outline: 2px solid var(--ascendio-focus);
+  outline-offset: 2px;
+}
+
+/* Header e pesquisa: aproximação de controles compactos e discretos */
+.md-header { box-shadow: none; border-bottom: 1px solid var(--ascendio-border); }
+.md-search__form { border-radius: 12px; overflow: hidden; }
+.md-header__button { border-radius: 10px; }
+.md-header__button:hover { background: var(--ascendio-hover); }
+
+/* Botões e mensagens sem aparência pesada */
+.md-typeset .md-button {
+  border-radius: 10px;
+  padding: .55em 1.15em;
+  font-weight: 600;
+  transition: background-color var(--ascendio-transition), border-color var(--ascendio-transition);
+}
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: var(--ascendio-radius);
+  overflow: hidden;
+}
+.md-typeset table:not([class]) {
+  border: 1px solid var(--ascendio-border);
+  border-radius: var(--ascendio-radius);
+  overflow: hidden;
+}
+
+/* Acessibilidade: respeitar preferência por redução de movimento */
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset .grid.cards > ul > li,
+  .md-nav__link,
+  .md-typeset .md-button { transition: none; }
+  .md-typeset .grid.cards > ul > li:hover { transform: none; }
+}
+@media (max-width: 59.99em) {
+  .md-main__inner { margin-top: .8rem; }
+  .md-typeset .grid.cards > ul > li { padding: 1rem; }
 }
