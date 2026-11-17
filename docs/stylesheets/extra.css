@@ -12,18 +12,18 @@
   border-radius: 14px;
 }
 
-/* Header: alinhado ao contêiner central (61rem).
-   Elementos: logo + nome à esquerda, tema + busca à direita. */
+/* Header: a largura de 61rem comprimia os controles para o meio da tela.
+   A marca acompanha a margem esquerda do conteúdo; ações ficam na margem direita. */
 .md-header .md-header__inner {
   display: flex;
   align-items: center;
   box-sizing: border-box;
-  width: calc(100% - 2rem) !important;
-  max-width: 61rem !important;
+  width: 100% !important;
+  max-width: none !important;
   min-height: 3rem;
   height: 3rem;
   margin-inline: auto !important;
-  padding-inline: 0;
+  padding-inline: clamp(1rem, 10.8vw, 11.5rem);
 }
 .md-header .md-header__title {
   flex: 1 1 auto;
@@ -38,6 +38,11 @@
 }
 .md-header .md-header__source:empty {
   display: none;
+}
+@media (max-width: 59.99em) {
+  .md-header .md-header__inner {
+    padding-inline: 1rem;
+  }
 }
 /* Campo de pesquisa em formato pill, inspirado no controle de busca do ChatGPT. */
 .md-search__form {
