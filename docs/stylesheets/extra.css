@@ -12,18 +12,32 @@
   border-radius: 14px;
 }
 
-/* Ajuste pontual: header na mesma largura centralizada do conteúdo,
-   com altura compacta de 48px. */
+/* Header: alinhado ao contêiner central (61rem).
+   Elementos: logo + nome à esquerda, tema + busca à direita. */
 .md-header .md-header__inner {
+  display: flex;
+  align-items: center;
   box-sizing: border-box;
   width: calc(100% - 2rem) !important;
-  max-width: 82rem !important;
-  height: 3rem;
+  max-width: 61rem !important;
   min-height: 3rem;
-  margin-left: auto !important;
-  margin-right: auto !important;
+  height: 3rem;
+  margin-inline: auto !important;
   padding-inline: 0;
-  align-items: center;
+}
+.md-header .md-header__title {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.md-header .md-header__option {
+  flex: 0 0 auto;
+  margin-left: auto;
+}
+.md-header .md-search {
+  flex: 0 0 auto;
+}
+.md-header .md-header__source:empty {
+  display: none;
 }
 /* Campo de pesquisa em formato pill, inspirado no controle de busca do ChatGPT. */
 .md-search__form {
