@@ -14,70 +14,10 @@ content:
       - name: body
         label: Conteúdo
         type: rich-text
-  - name: primeiros-passos
-    label: Primeiros Passos
-    type: collection
-    path: docs/primeiros-passos
-    format: yaml-frontmatter
-    fields:
-      - name: title
-        label: Título
-        type: string
-      - name: body
-        label: Conteúdo
-        type: rich-text
   - name: regras
-    label: Regras e Regulamentos
+    label: Regras
     type: collection
     path: docs/regras
-    format: yaml-frontmatter
-    fields:
-      - name: title
-        label: Título
-        type: string
-      - name: body
-        label: Conteúdo
-        type: rich-text
-  - name: lore
-    label: Universo e Lore
-    type: collection
-    path: docs/lore
-    format: yaml-frontmatter
-    fields:
-      - name: title
-        label: Título
-        type: string
-      - name: body
-        label: Conteúdo
-        type: rich-text
-  - name: hogwarts
-    label: Hogwarts
-    type: collection
-    path: docs/hogwarts
-    format: yaml-frontmatter
-    fields:
-      - name: title
-        label: Título
-        type: string
-      - name: body
-        label: Conteúdo
-        type: rich-text
-  - name: guias
-    label: Guias e Sistemas
-    type: collection
-    path: docs/guias
-    format: yaml-frontmatter
-    fields:
-      - name: title
-        label: Título
-        type: string
-      - name: body
-        label: Conteúdo
-        type: rich-text
-  - name: comunidade
-    label: Comunidade
-    type: collection
-    path: docs/comunidade
     format: yaml-frontmatter
     fields:
       - name: title
