@@ -34,3 +34,13 @@ A maldição não poderá ser utilizada para impor confissões, determinar resul
 ### 7. Maldição da Morte (Avada Kedavra)
 
 A utilização da Maldição da Morte é expressamente proibida sem autorização prévia da equipe de Staff ou Storytelling. Seu uso dependerá de justificativa narrativa excepcional e deverá respeitar as regras de Perda de Personagem (PD) estabelecidas pelo servidor. Nenhum jogador poderá determinar unilateralmente a morte definitiva de outro personagem por meio dessa maldição. O uso não autorizado poderá resultar na anulação da ação e na aplicação de penalidades administrativas.
+
+### 8. Legilimência e Oclumência
+
+A Legilimência é a habilidade mágica de acessar pensamentos, memórias e emoções de outro indivíduo, enquanto a Oclumência permite proteger a própria mente contra invasões e influências externas.
+
+O aprendizado dessas habilidades deverá ocorrer exclusivamente por meio do desenvolvimento narrativo dentro do Roleplay, mediante proposta apresentada por ticket e aprovação prévia da equipe de Storytelling, que será responsável por supervisionar sua evolução.
+
+A Legilimência poderá ser utilizada para obtenção de informações e desenvolvimento de narrativas previamente autorizadas, sendo expressamente proibido determinar pensamentos, manipular decisões ou impor ações ao personagem afetado. A Oclumência deverá respeitar o nível de aprendizado e as limitações estabelecidas para o personagem, não garantindo proteção absoluta ou irrestrita.
+
+Por se tratarem de habilidades excepcionais, as vagas serão limitadas e destinadas a personagens com histórias e propostas devidamente fundamentadas. A utilização dessas habilidades sem autorização poderá resultar na anulação das ações e na aplicação de penalidades administrativas.
