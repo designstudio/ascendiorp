@@ -15,11 +15,13 @@
 /* Ajuste pontual: header na mesma largura centralizada do conteúdo,
    com altura compacta de 48px. */
 .md-header .md-header__inner {
-  width: calc(100% - 2rem);
-  max-width: 82rem;
+  box-sizing: border-box;
+  width: calc(100% - 2rem) !important;
+  max-width: 82rem !important;
   height: 3rem;
   min-height: 3rem;
-  margin-inline: auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
   padding-inline: 0;
   align-items: center;
 }
@@ -37,9 +39,3 @@
   outline-offset: 2px;
 }
 
-/* Identidade: alternar a imagem da marca conforme o tema,
-   sem alterar tamanho, espaçamento ou estrutura do header. */
-[data-md-color-scheme="slate"] .md-header__button.md-logo img,
-[data-md-color-scheme="slate"] .md-nav__button.md-logo img {
-  content: url("../assets/logo-white.png");
-}
