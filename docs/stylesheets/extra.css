@@ -210,3 +210,42 @@
 .md-sidebar--secondary .md-nav__link .md-ellipsis {
   font-size: var(--ascendio-font-toc) !important;
 }
+
+/* Voltar ao topo: mesma linguagem visual do botão de pesquisa.
+   Preserva posição, aparição por rolagem e clique nativos do Zensical. */
+.md-top {
+  box-sizing: border-box;
+  border-radius: 9999px !important;
+  border: 0 !important;
+  font-size: 14px;
+  font-weight: 400;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.05), 0 4px 16px rgba(0,0,0,.05);
+  transition: background-color 150ms ease, color 150ms ease, box-shadow 150ms ease;
+}
+[data-md-color-scheme="default"] .md-top,
+[data-md-color-scheme="default"] .md-top:hover,
+[data-md-color-scheme="default"] .md-top:focus-visible {
+  color: #212121 !important;
+}
+[data-md-color-scheme="default"] .md-top { background-color: rgba(253,253,253,.96) !important; }
+[data-md-color-scheme="default"] .md-top:hover,
+[data-md-color-scheme="default"] .md-top:focus-visible {
+  background-color: #f2f2f3 !important;
+}
+[data-md-color-scheme="slate"] .md-top,
+[data-md-color-scheme="slate"] .md-top:hover,
+[data-md-color-scheme="slate"] .md-top:focus-visible {
+  color: #f4f4f4 !important;
+}
+[data-md-color-scheme="slate"] .md-top {
+  background-color: #272a2c !important;
+  box-shadow: 0 0 0 1px rgba(255,255,255,.09), 0 4px 16px rgba(0,0,0,.18);
+}
+[data-md-color-scheme="slate"] .md-top:hover,
+[data-md-color-scheme="slate"] .md-top:focus-visible {
+  background-color: #35393c !important;
+}
+.md-top:focus-visible {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+}
