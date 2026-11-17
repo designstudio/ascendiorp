@@ -16,6 +16,8 @@
   --ascendio-muted: #616b65;
   --ascendio-hover: #f2f5f2;
   --ascendio-focus: #22785a;
+  --ascendio-nav-active: #e8f1eb;
+  --ascendio-nav-text: #21533d;
   --md-default-bg-color: var(--ascendio-bg);
 }
 [data-md-color-scheme="slate"] {
@@ -27,8 +29,29 @@
   --ascendio-muted: #a6b6ab;
   --ascendio-hover: #27332c;
   --ascendio-focus: #86d4ab;
+  --ascendio-nav-active: #263b30;
+  --ascendio-nav-text: #b3e4c7;
   --md-default-bg-color: var(--ascendio-bg);
 }
+
+/* Layout amplo: header independente do limite estreito de documentação */
+.md-header__inner.md-grid {
+  max-width: none;
+  width: 100%;
+  min-height: 3.6rem;
+  padding-inline: clamp(1rem, 3vw, 3.5rem);
+  gap: .75rem;
+}
+.md-header__title { margin-left: .35rem; }
+.md-header__source { margin-left: auto; }
+
+/* Conteúdo sem colar na sidebar; permanece centrado em telas grandes */
+.md-main__inner.md-grid {
+  max-width: 88rem;
+  column-gap: 1.5rem;
+}
+.md-content { min-width: 0; }
+.md-content__inner { max-width: 58rem; }
 
 /* Conteúdo: legível, com espaço para respirar */
 .md-main__inner { margin-top: 1.55rem; }
@@ -66,19 +89,50 @@
 }
 .md-typeset .grid.cards a { text-underline-offset: .18em; }
 
-/* Navegação: alvos confortáveis, cantos arredondados */
-.md-nav__link {
-  border-radius: 9px;
-  padding: .34rem .5rem;
-  margin: .06rem 0;
-  transition: background-color var(--ascendio-transition),
-              color var(--ascendio-transition);
+/* Sidebar: uma única superfície de hover/seleção por item.
+   Reduz o aninhamento visual do tema e remove a seleção amarela. */
+.md-sidebar--primary { width: 14.5rem; }
+.md-sidebar--primary .md-sidebar__scrollwrap { padding-right: .35rem; }
+.md-sidebar--primary .md-nav__item,
+.md-sidebar--primary .md-nav__link {
+  border: 0;
+  box-shadow: none;
 }
-.md-nav__link:hover,
-.md-nav__link:focus-visible {
-  background: var(--ascendio-hover);
+.md-sidebar--primary .md-nav__item {
+  background: transparent !important;
+  border-radius: 0;
+  padding: 0 !important;
 }
-.md-nav__link--active { font-weight: 650; }
+.md-sidebar--primary .md-nav__item:hover {
+  background: transparent !important;
+}
+.md-sidebar--primary .md-nav__link {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 2.65rem;
+  margin: .16rem 0;
+  padding: .58rem .8rem;
+  border-radius: 10px;
+  background: transparent !important;
+  color: var(--md-default-fg-color);
+  line-height: 1.35;
+  transition: background-color var(--ascendio-transition), color var(--ascendio-transition);
+}
+.md-sidebar--primary .md-nav__link:hover,
+.md-sidebar--primary .md-nav__link:focus-visible {
+  background: var(--ascendio-hover) !important;
+}
+.md-sidebar--primary .md-nav__link--active,
+.md-sidebar--primary .md-nav__link[aria-current="page"] {
+  background: var(--ascendio-nav-active) !important;
+  color: var(--ascendio-nav-text) !important;
+  font-weight: 650;
+}
+.md-sidebar--primary .md-nav__item--active > .md-nav__link:not(.md-nav__link--active) {
+  background: transparent !important;
+}
+.md-sidebar--primary .md-nav__title { background: transparent; }
 .md-nav__link:focus-visible,
 .md-typeset a:focus-visible,
 .md-search__input:focus-visible {
@@ -89,6 +143,8 @@
 /* Header e pesquisa: aproximação de controles compactos e discretos */
 .md-header { box-shadow: none; border-bottom: 1px solid var(--ascendio-border); }
 .md-search__form { border-radius: 12px; overflow: hidden; }
+.md-search { margin-left: auto; }
+.md-header__option { margin-left: .4rem; }
 .md-header__button { border-radius: 10px; }
 .md-header__button:hover { background: var(--ascendio-hover); }
 
@@ -116,6 +172,12 @@
   .md-nav__link,
   .md-typeset .md-button { transition: none; }
   .md-typeset .grid.cards > ul > li:hover { transform: none; }
+}
+@media (min-width: 76.25em) {
+  .md-main__inner.md-grid { padding-inline: clamp(1rem, 2.5vw, 2.5rem); }
+}
+@media (max-width: 76.24em) {
+  .md-header__inner.md-grid { padding-inline: 1rem; }
 }
 @media (max-width: 59.99em) {
   .md-main__inner { margin-top: .8rem; }
