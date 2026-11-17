@@ -7,6 +7,7 @@ docs_dir = "docs"
 site_dir = "site"
 copyright = "Ascendio RP — Sua história é apenas o começo."
 extra_css = ["stylesheets/extra.css"]
+nav = [{ "Regras" = "regras/index.md" }]
 
 # Navegação automática: novas páginas criadas no Pages CMS aparecem na wiki.
 # Ao definir o domínio público, adicionar site_url para ativar navegação instantânea.
