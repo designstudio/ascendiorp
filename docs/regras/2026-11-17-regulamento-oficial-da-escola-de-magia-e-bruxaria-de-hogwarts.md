@@ -1,6 +1,12 @@
 ---
 title: Regulamento Oficial da Escola de Magia e Bruxaria de Hogwarts
 ---
+A **Escola de Magia e Bruxaria de Hogwarts** tem como compromisso proporcionar um ambiente seguro, acolhedor e propício ao aprendizado, onde jovens bruxos e bruxas possam desenvolver suas habilidades mágicas, ampliar seus conhecimentos e construir relações fundamentadas no respeito, na responsabilidade e na cooperação.
+
+Para preservar a ordem, a segurança e o bem-estar de toda a comunidade escolar, foram estabelecidas normas que orientam a conduta dos alunos e asseguram o bom funcionamento da instituição.
+
+O cumprimento deste regulamento é obrigatório para todos os estudantes. O desrespeito às normas estará sujeito às medidas disciplinares cabíveis, conforme a natureza e a gravidade da infração, podendo resultar em advertências, perda de pontos para a Casa, detenções ou, nos casos mais graves, expulsão.
+
 ## 1. Normas de Convivência e Segurança Geral
 
 1. **Vassouras:** É proibido utilizar vassouras dentro do castelo. O voo deverá ocorrer exclusivamente em áreas autorizadas pela direção da escola.
