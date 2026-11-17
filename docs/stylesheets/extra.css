@@ -12,15 +12,15 @@
   border-radius: 14px;
 }
 
-/* Ajuste 01: apenas cabeçalho e busca; sidebar e conteúdo permanecem nativos. */
-@media screen and (min-width: 76.25em) {
-  /* Alinha o header à largura do grid principal, sem torná-lo full-bleed. */
-  .md-header__inner.md-grid {
-    max-width: 82rem;
-  }
-}
-.md-header__inner {
-  min-height: 4.25rem;
+/* Ajuste pontual: header na mesma largura centralizada do conteúdo,
+   com altura compacta de 48px. */
+.md-header .md-header__inner {
+  width: calc(100% - 2rem);
+  max-width: 82rem;
+  height: 3rem;
+  min-height: 3rem;
+  margin-inline: auto;
+  padding-inline: 0;
   align-items: center;
 }
 /* Campo de pesquisa em formato pill, inspirado no controle de busca do ChatGPT. */
@@ -35,9 +35,6 @@
 .md-search__form:focus-within {
   outline: 2px solid var(--md-accent-fg-color);
   outline-offset: 2px;
-}
-@media screen and (max-width: 76.24em) {
-  .md-header__inner { min-height: 3.5rem; }
 }
 
 /* Identidade: alternar a imagem da marca conforme o tema,
