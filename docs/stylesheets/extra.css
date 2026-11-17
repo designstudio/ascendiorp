@@ -256,3 +256,14 @@
 .md-header .md-header__title .t-text-swap {
   font-weight: 700;
 }
+
+/* Rodapé: ocultar o crédito do gerador, preservando o copyright da Ascendio. */
+.md-footer .md-copyright {
+  font-size: 0;
+}
+.md-footer .md-copyright > a {
+  display: none;
+}
+.md-footer .md-copyright__highlight {
+  font-size: 12px;
+}
