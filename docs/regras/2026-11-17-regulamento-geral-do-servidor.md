@@ -23,7 +23,7 @@ Desentendimentos entre jogadores deverão ser tratados de forma respeitosa e con
 
 A participação no Ascendio RP é permitida exclusivamente a pessoas com idade mínima de 18 anos completos. Essa restrição constitui uma diretriz da administração, considerando a natureza das interações e das narrativas desenvolvidas no servidor. Jogadores que não atenderem a esse requisito não poderão participar da comunidade.
 
-## 2. PRIVACIDADE, DIVULGAÇÃO E DISCORD
+## 2. Privacidade, Divulgação e Discord
 
 ### Proteção de Dados Pessoais
 
