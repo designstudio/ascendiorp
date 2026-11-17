@@ -129,3 +129,34 @@ O novo personagem não poderá herdar automaticamente memórias, conhecimentos, 
 ### Validação da Nova História
 
 Antes de iniciar sua jornada, o jogador deverá encaminhar a história do novo personagem para avaliação, respeitando os critérios de criação e desenvolvimento estabelecidos pelo Ascendio RP.
+
+## 6. Diretrizes Gerais de Conduta e Roleplay
+
+### Coerência com o Sistema Mágico
+
+O uso de feitiços, poções e habilidades mágicas deverá respeitar os conhecimentos, limitações e o nível de experiência de cada personagem. É proibido atribuir capacidades extraordinárias sem desenvolvimento narrativo ou autorização, assim como realizar ações desproporcionais às habilidades adquiridas. Estudantes e bruxos iniciantes deverão demonstrar domínio mágico compatível com sua formação, evitando práticas de *overpowering*.
+
+### Respeito à Era e à Ambientação
+
+Os personagens deverão respeitar o contexto histórico, cultural e mágico estabelecido pelo Ascendio RP. O uso de tecnologias, conhecimentos ou comportamentos incompatíveis com a ambientação deverá ser evitado, preservando a coerência entre o mundo bruxo e o mundo trouxa.
+
+### Uso Narrativo de Feitiços
+
+A utilização de feitiços deverá respeitar a possibilidade de reação dos demais personagens, evitando determinar unilateralmente o resultado de ataques ou encantamentos. Em situações narrativas, deve-se descrever a intenção da ação, sem impor automaticamente seus efeitos sobre terceiros. Por exemplo, em vez de afirmar "Lanço um Expelliarmus e desarmo você", o jogador deverá indicar "Lanço um Expelliarmus em sua direção", permitindo o desenvolvimento da interação e respeitando as mecânicas do servidor.
+
+### Personalidade e Valores das Casas
+
+As casas de Hogwarts possuem valores e tradições que podem orientar o desenvolvimento dos personagens, sem determinar obrigatoriamente suas personalidades ou limitar suas escolhas individuais.
+
+- **Grifinória (Godric Gryffindor):** Valoriza a coragem, a bravura e a determinação, sem exigir comportamentos impulsivos ou heroísmo constante.
+- **Sonserina (Salazar Slytherin):** Valoriza a ambição, a astúcia e a determinação, sem que seus integrantes sejam necessariamente manipuladores ou associados às Artes das Trevas.
+- **Corvinal (Rowena Ravenclaw):** Valoriza a inteligência, a criatividade e a busca pelo conhecimento, sem que seus integrantes sejam obrigatoriamente estudiosos ou intelectualmente superiores aos demais.
+- **Lufa-Lufa (Helga Hufflepuff):** Valoriza a lealdade, a dedicação, a paciência e o senso de justiça, sem que seus integrantes sejam necessariamente submissos ou ingênuos.
+
+### Proteção Narrativa e Proibição de RP Forçado
+
+Nenhum jogador poderá determinar unilateralmente pensamentos, sentimentos, decisões, memórias ou resultados de ações de outro personagem. Interações que envolvam controle mental, alterações de memória, restrição prolongada de liberdade ou consequências narrativas permanentes deverão respeitar as regras específicas do servidor e, quando necessário, possuir autorização prévia da equipe de Storytelling. É proibido utilizar feitiços, poções ou habilidades especiais para impor resultados ou comprometer a liberdade narrativa dos demais participantes.
+
+### Procedimentos de Denúncias
+
+Todas as denúncias referentes ao descumprimento das regras do Ascendio RP deverão ser realizadas exclusivamente por meio de ticket no Discord oficial, acompanhadas de evidências em vídeo que permitam compreender o contexto da ocorrência. A equipe administrativa será responsável por analisar as provas, ouvir os envolvidos quando necessário e aplicar as medidas cabíveis conforme a gravidade da infração. É proibida a exposição pública de denúncias, provas ou informações de tickets. Jogadores que discordarem de uma decisão poderão solicitar sua revisão pelos canais oficiais, apresentando justificativas e evidências adicionais. Denúncias falsas ou provas manipuladas poderão resultar em penalidades administrativas.
