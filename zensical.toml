@@ -1,6 +1,7 @@
 [project]
 site_name = "Biblioteca Mágica | Ascendio RP"
 site_description = "Regras, guias e lore da Ascendio RP."
+site_url = "https://ascendiorp.pages.dev/"
 site_author = "Ascendio RP"
 docs_dir = "docs"
 site_dir = "site"
@@ -12,7 +13,7 @@ extra_css = ["stylesheets/extra.css"]
 
 [project.theme]
 language = "pt-BR"
-features = ["navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"]
+features = ["navigation.sections", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"]
 palette.scheme = "slate"
 palette.primary = "green"
 palette.accent = "amber"
