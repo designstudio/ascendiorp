@@ -42,17 +42,6 @@
   display: none !important;
 }
 
-/* A rolagem ativa o segundo tópico no header. Mantemos sempre o nome do site. */
-.md-header .md-header__topic[data-md-component="header-topic"] {
-  display: none !important;
-}
-.md-header .md-header__topic:first-child {
-  transform: none !important;
-  opacity: 1 !important;
-}
-.md-header .md-header__title--active .md-header__ellipsis {
-  transform: none !important;
-}
 @media (max-width: 59.99em) {
   .md-header .md-header__inner {
     padding-inline: 1rem;
