@@ -61,3 +61,10 @@
   outline-offset: 2px;
 }
 
+
+/* Transição suave do título contextual durante a rolagem.
+   Mantém os dois tópicos presentes e preserva o layout do header. */
+.md-header__title .md-header__topic {
+  transition: transform 320ms cubic-bezier(.2,.7,.2,1),
+              opacity 320ms ease;
+}
