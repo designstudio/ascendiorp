@@ -1,0 +1,26 @@
+[project]
+site_name = "Biblioteca Mágica | Ascendio RP"
+site_description = "Regras, guias e lore da Ascendio RP."
+site_author = "Ascendio RP"
+docs_dir = "docs"
+site_dir = "site"
+copyright = "Ascendio RP — Sua história é apenas o começo."
+nav = [
+  {"Início" = "index.md"},
+  {"Primeiros Passos" = "primeiros-passos/index.md"},
+  {"Regras e Regulamentos" = "regras/index.md"},
+  {"Universo e Lore" = "lore/index.md"},
+  {"Hogwarts" = "hogwarts/index.md"},
+  {"Guias e Sistemas" = "guias/index.md"},
+  {"Comunidade" = "comunidade/index.md"},
+]
+extra_css = ["stylesheets/extra.css"]
+
+[project.theme]
+language = "pt-BR"
+features = ["navigation.instant", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"]
+palette.scheme = "slate"
+palette.primary = "green"
+palette.accent = "amber"
+font.text = "Inter"
+font.code = "Roboto Mono"
