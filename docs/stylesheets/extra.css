@@ -195,3 +195,15 @@
 .md-typeset a:not(.headerlink):focus-visible {
   color: var(--ascendio-link-hover);
 }
+
+/* Tipografia Ascendio RP: navegação e índice — 13px. */
+:root {
+  --ascendio-font-sidebar: 13px;
+  --ascendio-font-toc: 13px;
+}
+.md-sidebar--primary .md-nav__link {
+  font-size: var(--ascendio-font-sidebar);
+}
+.md-sidebar--secondary .md-nav__link {
+  font-size: var(--ascendio-font-toc);
+}
