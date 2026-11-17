@@ -39,3 +39,10 @@
 @media screen and (max-width: 76.24em) {
   .md-header__inner { min-height: 3.5rem; }
 }
+
+/* Identidade: alternar a imagem da marca conforme o tema,
+   sem alterar tamanho, espaçamento ou estrutura do header. */
+[data-md-color-scheme="slate"] .md-header__button.md-logo img,
+[data-md-color-scheme="slate"] .md-nav__button.md-logo img {
+  content: url("../assets/logo-white.png");
+}
