@@ -178,3 +178,20 @@
 .md-sidebar--secondary .md-nav__link:focus-visible {
   color: var(--ascendio-toc-active) !important;
 }
+
+/* Links dentro dos documentos: substituir verde/laranja nativos. */
+[data-md-color-scheme="default"] {
+  --ascendio-link-color: #227451;
+  --ascendio-link-hover: #1b5f43;
+}
+[data-md-color-scheme="slate"] {
+  --ascendio-link-color: #9bd8b2;
+  --ascendio-link-hover: #b8e7c9;
+}
+.md-typeset a:not(.headerlink) {
+  color: var(--ascendio-link-color);
+}
+.md-typeset a:not(.headerlink):hover,
+.md-typeset a:not(.headerlink):focus-visible {
+  color: var(--ascendio-link-hover);
+}
