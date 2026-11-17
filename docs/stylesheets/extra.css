@@ -146,3 +146,29 @@
     filter: none !important;
   }
 }
+
+/* Ajuste pontual de cores: seleção da sidebar e índice ativo.
+   Mantém a paleta geral e todos os componentes existentes. */
+[data-md-color-scheme="default"] {
+  --ascendio-nav-selected-bg: #f0f0f0;
+  --ascendio-nav-selected-fg: #202020;
+  --ascendio-toc-active: #227451;
+}
+[data-md-color-scheme="slate"] {
+  --ascendio-nav-selected-bg: #303332;
+  --ascendio-nav-selected-fg: #f0f0f0;
+  --ascendio-toc-active: #9bd8b2;
+}
+
+/* Sidebar primária: apenas a página selecionada. */
+.md-sidebar--primary .md-nav__link--active,
+.md-sidebar--primary a.md-nav__link[aria-current="page"],
+.md-sidebar--primary label.md-nav__link--active {
+  background: var(--ascendio-nav-selected-bg) !important;
+  color: var(--ascendio-nav-selected-fg) !important;
+}
+
+/* Índice lateral: substituir o laranja pelo verde discreto. */
+.md-sidebar--secondary .md-nav__link--active {
+  color: var(--ascendio-toc-active) !important;
+}
