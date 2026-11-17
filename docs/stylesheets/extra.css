@@ -172,3 +172,9 @@
 .md-sidebar--secondary .md-nav__link--active {
   color: var(--ascendio-toc-active) !important;
 }
+
+/* Índice lateral: hover e foco sem amarelo/laranja. */
+.md-sidebar--secondary .md-nav__link:hover,
+.md-sidebar--secondary .md-nav__link:focus-visible {
+  color: var(--ascendio-toc-active) !important;
+}
