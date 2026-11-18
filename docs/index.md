@@ -74,13 +74,13 @@ title: Ascendio RP
       <p class="ascendio-home-aside">Leia por sua própria conta e risco.</p>
     </div>
     <ul class="ascendio-home-list ascendio-home-list--cons">
-      <li><strong>Histórias acontecendo a todo momento.</strong> Infelizmente, sua curiosidade não terá descanso.</li>
-      <li><strong>Mistérios sem respostas imediatas.</strong> Você talvez passe mais tempo criando teorias do que dormindo.</li>
-      <li><strong>Personagens difíceis de esquecer.</strong> Prepare-se para criar laços, rivalidades e talvez alguns problemas emocionais.</li>
-      <li><strong>Consequências para suas escolhas.</strong> Nem toda decisão poderá ser desfeita, e nem todo final será aquele que você imaginou.</li>
-      <li><strong>Possibilidade de se envolver demais.</strong> Você pode entrar apenas para experimentar e acabar completamente imerso no universo.</li>
-      <li><strong>Uma comunidade para chamar de sua.</strong> Existe o risco de encontrar pessoas com quem vai querer compartilhar muito mais do que algumas sessões de RP.</li>
-      <li><strong>Vontade de descobrir o que vem depois.</strong> O problema é que uma história sempre pode esconder outra.</li>
+      <li>Infelizmente, sua curiosidade não terá descanso.</li>
+      <li>Você talvez passe mais tempo criando teorias do que dormindo.</li>
+      <li>Prepare-se para criar laços, rivalidades e talvez alguns problemas emocionais.</li>
+      <li>Nem toda decisão poderá ser desfeita, e nem todo final será aquele que você imaginou.</li>
+      <li>Você pode entrar apenas para experimentar e acabar completamente imerso no universo.</li>
+      <li>Existe o risco de encontrar pessoas com quem vai querer compartilhar muito mais do que algumas sessões de RP.</li>
+      <li>O problema é que uma história sempre pode esconder outra.</li>
     </ul>
   </section>
 
