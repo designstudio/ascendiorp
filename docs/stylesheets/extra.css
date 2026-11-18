@@ -376,7 +376,7 @@
 .ascendio-rule-card__icon--book { --ascendio-solar-icon: url("../assets/icons/solar/book.svg"); }
 .ascendio-rule-card__icon--hogwarts { --ascendio-solar-icon: url("../assets/icons/solar/hogwarts.svg"); }
 .ascendio-rule-card__icon--families { --ascendio-solar-icon: url("../assets/icons/solar/families.svg"); }
-.ascendio-rule-card__icon--abilities { --ascendio-solar-icon: url("../assets/icons/solar/abilities.svg"); }
+.ascendio-rule-card__icon--abilities { --ascendio-solar-icon: url("../assets/icons/lucide/sparkles.svg"); }
 .ascendio-rule-card__icon--magic { --ascendio-solar-icon: url("../assets/icons/solar/magic.svg"); }
 .ascendio-rule-card__icon--moderation { --ascendio-solar-icon: url("../assets/icons/solar/moderation.svg"); }
-.ascendio-rule-card__icon--supporters { --ascendio-solar-icon: url("../assets/icons/solar/supporters.svg"); }
+.ascendio-rule-card__icon--supporters { --ascendio-solar-icon: url("../assets/icons/lucide/hand-heart.svg"); }
