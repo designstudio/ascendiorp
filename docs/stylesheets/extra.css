@@ -152,12 +152,12 @@
 [data-md-color-scheme="default"] {
   --ascendio-nav-selected-bg: #f0f0f0;
   --ascendio-nav-selected-fg: #202020;
-  --ascendio-toc-active: #227451;
+  --ascendio-toc-active: #8a6a47;
 }
 [data-md-color-scheme="slate"] {
   --ascendio-nav-selected-bg: #303332;
   --ascendio-nav-selected-fg: #f0f0f0;
-  --ascendio-toc-active: #9bd8b2;
+  --ascendio-toc-active: #dfcbb3;
 }
 
 /* Sidebar primária: apenas a página selecionada. */
@@ -181,12 +181,12 @@
 
 /* Links dentro dos documentos: substituir verde/laranja nativos. */
 [data-md-color-scheme="default"] {
-  --ascendio-link-color: #227451;
-  --ascendio-link-hover: #1b5f43;
+  --ascendio-link-color: #8a6a47;
+  --ascendio-link-hover: #6d5034;
 }
 [data-md-color-scheme="slate"] {
-  --ascendio-link-color: #9bd8b2;
-  --ascendio-link-hover: #b8e7c9;
+  --ascendio-link-color: #dfcbb3;
+  --ascendio-link-hover: #f0e1cf;
 }
 .md-typeset a:not(.headerlink) {
   color: var(--ascendio-link-color);
@@ -294,18 +294,18 @@
 [data-md-color-scheme="default"] {
   --ascendio-rule-surface: #fff;
   --ascendio-rule-border: #e4e6e5;
-  --ascendio-rule-hover: #f7faf8;
+  --ascendio-rule-hover: #f7f7f7;
   --ascendio-rule-text: #212622;
   --ascendio-rule-muted: #5e6961;
-  --ascendio-rule-icon: #227451;
+  --ascendio-rule-icon: #8a6a47;
 }
 [data-md-color-scheme="slate"] {
   --ascendio-rule-surface: #202420;
   --ascendio-rule-border: #3b423c;
-  --ascendio-rule-hover: #28342d;
+  --ascendio-rule-hover: #303332;
   --ascendio-rule-text: #f1f4f1;
   --ascendio-rule-muted: #b6c0b9;
-  --ascendio-rule-icon: #9bd8b2;
+  --ascendio-rule-icon: #dfcbb3;
 }
 .md-typeset .ascendio-rule-card:hover {
   background: var(--ascendio-rule-hover);
@@ -342,80 +342,28 @@
   .md-typeset .ascendio-rule-card:hover { transform: none; }
 }
 
-/* Identidade oficial Ascendio RP: cinza #1B1A1A, prata #ECE3D5, dourado #DFCBB3.
-   Paleta do Zensical em ambas as modalidades, preservando legibilidade. */
+/* Acentos dourados da Ascendio RP, mantendo os fundos neutros anteriores. */
 :root {
   --ascendio-gray: #1b1a1a;
   --ascendio-silver: #ece3d5;
   --ascendio-gold: #dfcbb3;
 }
 [data-md-color-scheme="default"] {
-  --md-primary-fg-color: #1b1a1a;
-  --md-primary-fg-color--light: #343030;
-  --md-primary-fg-color--dark: #121111;
-  --md-primary-bg-color: #ece3d5;
-  --md-primary-bg-color--light: #ece3d5;
-  --md-accent-fg-color: #806149;
-  --md-accent-fg-color--transparent: rgba(223,203,179,.25);
-  --md-default-bg-color: #faf8f5;
-  --md-default-fg-color: #1b1a1a;
-  --md-default-fg-color--light: #625b54;
-  --md-default-fg-color--lighter: #887d70;
-  --md-typeset-a-color: #74583f;
-  --ascendio-link-color: #74583f;
-  --ascendio-link-hover: #4f3927;
-  --ascendio-nav-selected-bg: #ece3d5;
-  --ascendio-nav-selected-fg: #1b1a1a;
-  --ascendio-toc-active: #806149;
-  --ascendio-rule-surface: #fffdfb;
-  --ascendio-rule-border: #e5dbce;
-  --ascendio-rule-hover: #f6efe5;
-  --ascendio-rule-text: #1b1a1a;
-  --ascendio-rule-muted: #625b54;
-  --ascendio-rule-icon: #866a4f;
+  --md-primary-fg-color: #8a6a47;
+  --md-primary-fg-color--light: #aa8966;
+  --md-primary-fg-color--dark: #6d5034;
+  --md-primary-bg-color: #ffffff;
+  --md-accent-fg-color: #8a6a47;
+  --md-typeset-a-color: #8a6a47;
 }
 [data-md-color-scheme="slate"] {
-  --md-hue: 24;
-  --md-primary-fg-color: #1b1a1a;
-  --md-primary-fg-color--light: #343030;
-  --md-primary-fg-color--dark: #121111;
-  --md-primary-bg-color: #ece3d5;
-  --md-primary-bg-color--light: #ece3d5;
+  --md-primary-fg-color: #8a6a47;
+  --md-primary-fg-color--light: #aa8966;
+  --md-primary-fg-color--dark: #6d5034;
+  --md-primary-bg-color: #ffffff;
   --md-accent-fg-color: #dfcbb3;
-  --md-accent-fg-color--transparent: rgba(223,203,179,.2);
-  --md-default-bg-color: #1b1a1a;
-  --md-default-fg-color: #ece3d5;
-  --md-default-fg-color--light: #c8bfb2;
-  --md-default-fg-color--lighter: #a69c90;
   --md-typeset-a-color: #dfcbb3;
-  --ascendio-link-color: #dfcbb3;
-  --ascendio-link-hover: #f1e2ce;
-  --ascendio-nav-selected-bg: #38332e;
-  --ascendio-nav-selected-fg: #ece3d5;
-  --ascendio-toc-active: #dfcbb3;
-  --ascendio-rule-surface: #252321;
-  --ascendio-rule-border: #4b443c;
-  --ascendio-rule-hover: #332d27;
-  --ascendio-rule-text: #ece3d5;
-  --ascendio-rule-muted: #c8bfb2;
-  --ascendio-rule-icon: #dfcbb3;
 }
-/* Busca: os estados continuam neutros, coerentes com o novo header. */
-[data-md-color-scheme="default"] .md-header .md-search__button {
-  background: #ece3d5;
-  color: #1b1a1a;
-}
-[data-md-color-scheme="default"] .md-header .md-search__button:hover { background: #dfcbb3; }
-[data-md-color-scheme="slate"] .md-header .md-search__button {
-  background: #38332e;
-  color: #ece3d5;
-}
-[data-md-color-scheme="slate"] .md-header .md-search__button:hover { background: #4b443c; }
-/* Voltar ao topo mantém o mesmo acabamento do botão de pesquisa. */
-[data-md-color-scheme="default"] .md-top { background-color: #ece3d5 !important; color: #1b1a1a !important; }
-[data-md-color-scheme="default"] .md-top:hover { background-color: #dfcbb3 !important; }
-[data-md-color-scheme="slate"] .md-top { background-color: #38332e !important; color: #ece3d5 !important; }
-[data-md-color-scheme="slate"] .md-top:hover { background-color: #4b443c !important; }
 /* SVGs originais Solar Outline como máscaras CSS: seguem a cor de cada tema. */
 .ascendio-rule-card__icon {
   display: block;
