@@ -341,3 +341,94 @@
   .md-typeset .ascendio-rule-card { transition: none; }
   .md-typeset .ascendio-rule-card:hover { transform: none; }
 }
+
+/* Identidade oficial Ascendio RP: cinza #1B1A1A, prata #ECE3D5, dourado #DFCBB3.
+   Paleta do Zensical em ambas as modalidades, preservando legibilidade. */
+:root {
+  --ascendio-gray: #1b1a1a;
+  --ascendio-silver: #ece3d5;
+  --ascendio-gold: #dfcbb3;
+}
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #1b1a1a;
+  --md-primary-fg-color--light: #343030;
+  --md-primary-fg-color--dark: #121111;
+  --md-primary-bg-color: #ece3d5;
+  --md-primary-bg-color--light: #ece3d5;
+  --md-accent-fg-color: #806149;
+  --md-accent-fg-color--transparent: rgba(223,203,179,.25);
+  --md-default-bg-color: #faf8f5;
+  --md-default-fg-color: #1b1a1a;
+  --md-default-fg-color--light: #625b54;
+  --md-default-fg-color--lighter: #887d70;
+  --md-typeset-a-color: #74583f;
+  --ascendio-link-color: #74583f;
+  --ascendio-link-hover: #4f3927;
+  --ascendio-nav-selected-bg: #ece3d5;
+  --ascendio-nav-selected-fg: #1b1a1a;
+  --ascendio-toc-active: #806149;
+  --ascendio-rule-surface: #fffdfb;
+  --ascendio-rule-border: #e5dbce;
+  --ascendio-rule-hover: #f6efe5;
+  --ascendio-rule-text: #1b1a1a;
+  --ascendio-rule-muted: #625b54;
+  --ascendio-rule-icon: #866a4f;
+}
+[data-md-color-scheme="slate"] {
+  --md-hue: 24;
+  --md-primary-fg-color: #1b1a1a;
+  --md-primary-fg-color--light: #343030;
+  --md-primary-fg-color--dark: #121111;
+  --md-primary-bg-color: #ece3d5;
+  --md-primary-bg-color--light: #ece3d5;
+  --md-accent-fg-color: #dfcbb3;
+  --md-accent-fg-color--transparent: rgba(223,203,179,.2);
+  --md-default-bg-color: #1b1a1a;
+  --md-default-fg-color: #ece3d5;
+  --md-default-fg-color--light: #c8bfb2;
+  --md-default-fg-color--lighter: #a69c90;
+  --md-typeset-a-color: #dfcbb3;
+  --ascendio-link-color: #dfcbb3;
+  --ascendio-link-hover: #f1e2ce;
+  --ascendio-nav-selected-bg: #38332e;
+  --ascendio-nav-selected-fg: #ece3d5;
+  --ascendio-toc-active: #dfcbb3;
+  --ascendio-rule-surface: #252321;
+  --ascendio-rule-border: #4b443c;
+  --ascendio-rule-hover: #332d27;
+  --ascendio-rule-text: #ece3d5;
+  --ascendio-rule-muted: #c8bfb2;
+  --ascendio-rule-icon: #dfcbb3;
+}
+/* Busca: os estados continuam neutros, coerentes com o novo header. */
+[data-md-color-scheme="default"] .md-header .md-search__button {
+  background: #ece3d5;
+  color: #1b1a1a;
+}
+[data-md-color-scheme="default"] .md-header .md-search__button:hover { background: #dfcbb3; }
+[data-md-color-scheme="slate"] .md-header .md-search__button {
+  background: #38332e;
+  color: #ece3d5;
+}
+[data-md-color-scheme="slate"] .md-header .md-search__button:hover { background: #4b443c; }
+/* Voltar ao topo mantém o mesmo acabamento do botão de pesquisa. */
+[data-md-color-scheme="default"] .md-top { background-color: #ece3d5 !important; color: #1b1a1a !important; }
+[data-md-color-scheme="default"] .md-top:hover { background-color: #dfcbb3 !important; }
+[data-md-color-scheme="slate"] .md-top { background-color: #38332e !important; color: #ece3d5 !important; }
+[data-md-color-scheme="slate"] .md-top:hover { background-color: #4b443c !important; }
+/* SVGs originais Solar Outline como máscaras CSS: seguem a cor de cada tema. */
+.ascendio-rule-card__icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-color: var(--ascendio-rule-icon);
+  -webkit-mask: var(--ascendio-solar-icon) center / contain no-repeat;
+  mask: var(--ascendio-solar-icon) center / contain no-repeat;
+}
+.ascendio-rule-card__icon--book { --ascendio-solar-icon: url("../assets/icons/solar/book.svg"); }
+.ascendio-rule-card__icon--hogwarts { --ascendio-solar-icon: url("../assets/icons/solar/hogwarts.svg"); }
+.ascendio-rule-card__icon--families { --ascendio-solar-icon: url("../assets/icons/solar/families.svg"); }
+.ascendio-rule-card__icon--abilities { --ascendio-solar-icon: url("../assets/icons/solar/abilities.svg"); }
+.ascendio-rule-card__icon--magic { --ascendio-solar-icon: url("../assets/icons/solar/magic.svg"); }
+.ascendio-rule-card__icon--moderation { --ascendio-solar-icon: url("../assets/icons/solar/moderation.svg"); }
+.ascendio-rule-card__icon--supporters { --ascendio-solar-icon: url("../assets/icons/solar/supporters.svg"); }
