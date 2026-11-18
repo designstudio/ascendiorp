@@ -1,60 +1,83 @@
 ---
-title: Raças e Habilidades Especiais
+title: Programa de Apoiadores
 ---
-As raças, condições mágicas e habilidades especiais representam características extraordinárias dentro do universo bruxo, exigindo desenvolvimento narrativo coerente e respeito às limitações de cada personagem. Sua obtenção ou utilização deverá seguir as diretrizes estabelecidas pelo Ascendio RP, podendo depender de aprovação prévia da equipe de Storytelling ou de editais oficiais. Nenhum jogador poderá atribuir ao próprio personagem habilidades excepcionais sem atender aos requisitos aplicáveis.
+O Programa de Apoiadores e Doações Voluntárias do Ascendio RP tem como finalidade permitir que membros da comunidade contribuam financeiramente para a manutenção, o desenvolvimento e a melhoria contínua do servidor.
 
-### 1. Animagos
+As contribuições ajudam a custear infraestrutura, sistemas, ferramentas e demais recursos necessários ao funcionamento do projeto.
 
-A animagia é uma habilidade adquirida por meio de um processo longo e complexo, envolvendo conhecimentos avançados de Transfiguração e preparação de poções específicas. Um animago é capaz de assumir a forma de um animal determinado, não podendo escolher livremente diferentes formas.
+## 1. Participação e Contribuições
 
-No Ascendio RP, o desenvolvimento dessa habilidade exige uma trajetória narrativa consistente e aprovação prévia da equipe de Storytelling. Os interessados deverão abrir um ticket para consultar os requisitos e procedimentos necessários.
+A participação no programa é voluntária e não constitui requisito para acessar o servidor ou participar de suas atividades regulares.
 
-### 2. Metamorfomagos
+Os valores, modalidades, condições e benefícios disponíveis serão apresentados nos canais oficiais do Ascendio RP.
 
-A metamorfomagia é uma habilidade genética extremamente rara, manifestada desde o nascimento, que permite ao bruxo alterar sua aparência física sem a utilização de varinhas ou encantamentos.
+## 2. Benefícios dos Apoiadores
 
-Metamorfomagos podem modificar características como cabelos, feições e cor dos olhos, respeitando as limitações estabelecidas para a habilidade. Essa capacidade não permite adquirir poderes de outros personagens nem utilizar alterações de aparência para impor resultados narrativos.
+Conforme a modalidade de apoio escolhida, os participantes poderão receber benefícios comunitários, incluindo:
 
-Por se tratar de uma condição excepcional, a criação de personagens metamorfomagos dependerá de avaliação e aprovação prévia da equipe de Storytelling, mediante abertura de ticket.
+- Cargo exclusivo de Apoiador no Discord.
+- Atendimento prioritário para solicitações de suporte técnico.
+- Acesso antecipado a testes de funcionalidades em ambiente separado do servidor principal.
+- Canal exclusivo para conversas com a equipe.
+- Participação antecipada em enquetes de desenvolvimento, mantendo o mesmo peso de voto dos demais jogadores.
+- Acesso a diários de desenvolvimento e materiais de bastidores.
+- Inclusão em mural de agradecimentos, mediante autorização.
+- Participação em encontros de voz com a equipe.
+- Oportunidade de sugerir temas para conteúdos comunitários.
+- Acesso a bastidores exclusivos de desenvolvimento e gameplay.
 
-### 3. Domínio sobre Fênix
+## 3. Slots Adicionais para Famílias Bruxas
 
-As fênix estão entre as criaturas mágicas mais raras e extraordinárias, conhecidas por renascer das próprias cinzas, possuir lágrimas com propriedades curativas e estabelecer vínculos de profunda lealdade com determinados bruxos.
+As famílias bruxas comuns poderão ser constituídas gratuitamente por até três membros, conforme as Regras Gerais do Servidor.
 
-No Ascendio RP, estabelecer um vínculo com uma fênix será considerado um acontecimento excepcional, permitido exclusivamente mediante proposta aprovada pela equipe de Storytelling ou edital oficial.
+A inclusão de integrantes adicionais poderá ocorrer mediante aquisição de slots por meio de doações voluntárias, respeitando a disponibilidade e os critérios estabelecidos pela administração.
 
-Nenhum personagem poderá declarar possuir, controlar ou domesticar uma fênix sem autorização prévia. O vínculo com a criatura não representa domínio absoluto sobre suas ações.
+A aquisição de slots não garante aprovação automática de personagens, histórias ou alterações na estrutura familiar. Todas as solicitações deverão passar por avaliação administrativa mediante abertura de ticket.
 
-### 4. Domínio sobre Dragões
+## 4. Itens Exclusivos de Doação
 
-O estudo e o manejo de dragões exigem conhecimentos especializados, experiência e profundo respeito por essas criaturas. Entre as linhagens tradicionalmente associadas à dragonologia destaca-se o Clã MacFusty, conhecido pelo manejo dos Negros das Hébridas.
+Determinados itens poderão ser disponibilizados como benefícios vinculados às contribuições financeiras realizadas pelos jogadores.
 
-No Ascendio RP, vínculos excepcionais com dragões, habilidades especiais de manejo e o pertencimento a linhagens exclusivas dependerão de proposta aprovada pela equipe de Storytelling ou edital oficial.
+Esses itens deverão respeitar as condições específicas informadas no momento da aquisição e as limitações técnicas do servidor.
 
-É proibido declarar domínio absoluto, controle hereditário ou capacidade irrestrita de domesticar dragões sem autorização. A interação com essas criaturas deverá respeitar sua natureza perigosa e imprevisível.
+Os itens exclusivos de doação serão preservados após a Perda de Personagem (PD), diferentemente dos itens comuns presentes no inventário.
 
-### 5. Meio-Veela
+A preservação desses itens não permite transferir conhecimentos, habilidades especiais ou progressão narrativa do personagem anterior para o novo personagem.
 
-Meio-Veelas são bruxos com ancestralidade Veela, podendo herdar características como beleza extraordinária e um encanto mágico natural capaz de despertar fascínio e distração.
+## 5. Igualdade e Fair Play
 
-Essa influência não permite controlar decisões, alterar memórias ou obrigar outros personagens a realizar ações contra sua vontade. É expressamente proibido utilizar o encanto Veela para forçar relacionamentos, sentimentos ou resultados narrativos.
+As contribuições financeiras não garantem vantagens competitivas, progressão acelerada ou tratamento privilegiado em decisões narrativas.
 
-Por se tratar de uma condição rara, personagens com ancestralidade Veela somente serão permitidos mediante proposta aprovada pela equipe de Storytelling ou edital oficial.
+Os benefícios relacionados a slots familiares e itens exclusivos de doação deverão respeitar as limitações estabelecidas pelo servidor, sem conceder poderes extraordinários, privilégios administrativos ou aprovação automática de propostas narrativas.
 
-### 6. Lobisomens
+## 6. Participação nas Decisões da Comunidade
 
-Os lobisomens são indivíduos afetados pela Maldição Lupina, caracterizada por transformações involuntárias e dolorosas durante as noites de lua cheia. Nessas condições, adquirem força, velocidade e resistência sobre-humanas, perdendo o controle sobre suas ações.
+Os apoiadores poderão participar antecipadamente de determinadas enquetes e consultas sobre o desenvolvimento do Ascendio RP.
 
-A licantropia representa uma condição perigosa, sujeita a limitações físicas, comportamentais e consequências narrativas. A transformação não poderá ser utilizada como justificativa para ignorar as regras gerais de combate ou prejudicar deliberadamente outros jogadores.
+Posteriormente, essas consultas serão disponibilizadas à comunidade geral, garantindo igualdade no peso dos votos.
 
-A criação de personagens lobisomens ou a aquisição dessa condição deverá seguir os critérios estabelecidos pela equipe de Storytelling. Os interessados deverão abrir um ticket para consultar as condições de participação e desenvolvimento narrativo.
+As enquetes terão caráter consultivo, cabendo à administração avaliar a viabilidade das propostas apresentadas.
 
-### 7. Vampiros
+## 7. Vigência e Cancelamento
 
-Vampiros são criaturas de natureza sobrenatural, caracterizadas por sua longevidade e aparência relativamente preservada ao longo do tempo. Apesar de possuírem força e velocidade extraordinárias, não são invulneráveis e estão sujeitos a limitações próprias de sua condição.
+Os benefícios vinculados a contribuições recorrentes permanecerão disponíveis durante o período correspondente à modalidade contratada.
 
-Embora não possuam necessariamente capacidades mágicas equivalentes às dos bruxos, podem estabelecer alianças e recorrer a recursos mágicos compatíveis com suas características e com as regras do servidor.
+O cancelamento da contribuição encerrará a renovação dos benefícios recorrentes, respeitando os períodos já contemplados e as condições informadas no momento da contratação.
 
-No Ascendio RP, personagens vampiros deverão respeitar suas habilidades, fraquezas e limitações, sendo proibido utilizar sua condição para justificar ataques injustificados ou obter vantagens indevidas.
+As regras de permanência dos itens exclusivos e slots adquiridos deverão ser informadas previamente, de acordo com a modalidade correspondente.
 
-A criação ou transformação de personagens vampiros estará sujeita à avaliação da equipe de Storytelling, mediante abertura de ticket, conforme os critérios de participação estabelecidos pelo servidor.
+Solicitações de cancelamento, reembolso ou contestação serão tratadas conforme as condições divulgadas e a legislação aplicável.
+
+## 8. Transparência e Atualizações
+
+A administração poderá atualizar as modalidades e benefícios do programa, comunicando previamente alterações relevantes pelos canais oficiais.
+
+Mudanças nas condições das contribuições deverão respeitar os direitos dos participantes e as condições aplicáveis às aquisições já realizadas.
+
+## 9. Disposições Gerais
+
+A participação no Programa de Apoiadores e Doações Voluntárias não concede autoridade administrativa, influência privilegiada sobre decisões disciplinares ou acesso irrestrito a recursos narrativos.
+
+Todos os apoiadores permanecem sujeitos às mesmas regras de convivência e conduta estabelecidas para a comunidade.
+
+O descumprimento das normas do servidor poderá resultar em penalidades administrativas, independentemente da existência de contribuições financeiras.
