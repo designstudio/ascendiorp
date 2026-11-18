@@ -21,16 +21,16 @@ features = ["navigation.sections", "navigation.indexes", "navigation.top", "sear
 [[project.theme.palette]]
 media = "(prefers-color-scheme: light)"
 scheme = "default"
-primary = "green"
-accent = "amber"
+primary = "custom"
+accent = "custom"
 toggle.icon = "lucide/sun"
 toggle.name = "Alternar para modo escuro"
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme: dark)"
 scheme = "slate"
-primary = "green"
-accent = "amber"
+primary = "custom"
+accent = "custom"
 toggle.icon = "lucide/moon"
 toggle.name = "Alternar para modo claro"
 
