@@ -1,7 +1,6 @@
 ---
 title: Ascendio RP
 ---
-
 <div class="ascendio-home">
 
   <section class="ascendio-home-hero" aria-labelledby="ascendio-home-title">
@@ -71,7 +70,7 @@ title: Ascendio RP
   <section class="ascendio-home-section" aria-labelledby="ascendio-home-cons">
     <div class="ascendio-home-section-heading">
       <p class="ascendio-home-eyebrow">Nem tudo são flores (ou feitiços)</p>
-      <h2 id="ascendio-home-cons">✧ Desvantagens de jogar na Ascendio</h2>
+      <h2 id="ascendio-home-cons">✧ (Des)vantagens de jogar na Ascendio</h2>
       <p class="ascendio-home-aside">Leia por sua própria conta e risco.</p>
     </div>
     <ul class="ascendio-home-list ascendio-home-list--cons">
