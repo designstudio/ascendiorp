@@ -43,3 +43,5 @@ Conheça os regulamentos que orientam a convivência, o desenvolvimento dos pers
     <span class="ascendio-rule-card__description">Participação voluntária, contribuições e condições do programa de apoio ao servidor.</span>
   </a>
 </div>
+
+<p class="ascendio-rule-attribution">Ícones <a href="https://github.com/480-Design/Solar-Icon-Set">Solar Icon Set</a>, por 480 Design · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
