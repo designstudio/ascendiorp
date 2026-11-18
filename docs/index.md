@@ -6,15 +6,49 @@ title: Ascendio RP
 
 # Boas-vindas à Ascendio!
 
+**Sua história é apenas o começo.**
+
 Inspirada no universo mágico de **Harry Potter** e **Hogwarts Legacy**, a **Ascendio RP** propõe uma experiência de interpretação imersiva, construída sobre narrativas envolventes, personagens complexos e um mundo repleto de possibilidades.
+
+[**Comece sua jornada ↗**](primeiros-passos/como-comecar-no-ascendio-rp.md) · [Conheça as regras →](regras/regulamento-geral-do-servidor.md)
 
 ## ✧ O que você encontrará por aqui?
 
-- **Vivencie a história do mundo bruxo:** aqui, você não será apenas um espectador das histórias que marcaram o universo de Harry Potter. Personagens conhecidos, acontecimentos históricos e referências importantes da saga farão parte da experiência, permitindo que você esteja inserido nesse universo, presencie momentos marcantes e até participe de acontecimentos que ajudaram a moldar a história da comunidade bruxa.
-- **Narrativas bem arquitetadas:** histórias cuidadosamente desenvolvidas, com mistérios, conflitos, reviravoltas e desdobramentos que vão muito além do superficial.
-- **Uma comunidade acolhedora:** um ambiente aberto a novos jogadores, veteranos, criadores de conteúdo e todos aqueles que desejam encontrar seu espaço nesse universo.
-- **Oportunidades para todos:** independentemente da trajetória ou relevância do seu personagem, você terá a possibilidade de participar, contribuir e deixar sua marca.
-- **Espaço para novos criadores:** oportunidades para streamers, criadores de conteúdo e jogadores que desejam compartilhar suas experiências.
+Uma experiência para construir junto.
+
+<div class="grid cards" markdown>
+
+-   <span class="ascendio-rule-card__icon ascendio-rule-card__icon--book" aria-hidden="true"></span>
+
+    **Vivencie a história do mundo bruxo**
+
+    Você não será apenas um espectador das histórias de Harry Potter. Personagens conhecidos, acontecimentos históricos e referências da saga fazem parte da experiência — e você poderá presenciar e participar de momentos que moldam esse universo.
+
+-   <span class="ascendio-rule-card__icon ascendio-rule-card__icon--magic" aria-hidden="true"></span>
+
+    **Narrativas bem arquitetadas**
+
+    Histórias cuidadosamente desenvolvidas, com mistérios, conflitos, reviravoltas e desdobramentos que vão muito além do superficial.
+
+-   <span class="ascendio-rule-card__icon ascendio-rule-card__icon--families" aria-hidden="true"></span>
+
+    **Uma comunidade acolhedora**
+
+    Um ambiente aberto a novos jogadores, veteranos, criadores de conteúdo e todos aqueles que desejam encontrar seu espaço no mundo bruxo.
+
+-   <span class="ascendio-rule-card__icon ascendio-rule-card__icon--abilities" aria-hidden="true"></span>
+
+    **Oportunidades para todos**
+
+    Independentemente da trajetória ou relevância do seu personagem, você terá a possibilidade de participar, contribuir e deixar sua marca.
+
+-   <span class="ascendio-rule-card__icon ascendio-rule-card__icon--supporters" aria-hidden="true"></span>
+
+    **Espaço para novos criadores**
+
+    Oportunidades para streamers, criadores de conteúdo e jogadores que desejam compartilhar suas experiências.
+
+</div>
 
 ## ✧ Vantagens de jogar na Ascendio
 
@@ -39,4 +73,8 @@ Inspirada no universo mágico de **Harry Potter** e **Hogwarts Legacy**, a **Asc
 
 ---
 
-**Ascendio RP — Sua história é apenas o começo.**
+## Sua história é apenas o começo.
+
+Encontre seu lugar no mundo bruxo e descubra aonde suas escolhas podem levar.
+
+[**Primeiros passos ↗**](primeiros-passos/como-comecar-no-ascendio-rp.md) · [Como instalar o HogwartsMP →](primeiros-passos/como-instalar-o-hogwartsmp.md)
