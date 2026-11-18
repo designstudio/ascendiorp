@@ -43,7 +43,7 @@ Com o ArcaneMP instalado, chegou a hora de iniciar sua aventura!
 
 Encontrou alguma dificuldade durante a instalação ou não conseguiu iniciar o multiplayer?
 
-Entre em contato com a equipe de suporte do Ascendio RP pelos nosso [Discord](https://discord.com/channels/1353878385222221905/1353879025147449356/1568080130939560087).
+Entre em contato com a equipe de suporte do Ascendio RP pelos nosso [Discord](https://discord.gg/ascendio).
 
 ## Sua história começa agora! ✨
 
