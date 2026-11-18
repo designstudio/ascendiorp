@@ -68,7 +68,7 @@ title: Ascendio RP
     </ul>
   </section>
 
-  <section class="ascendio-home-section ascendio-home-section--playful" aria-labelledby="ascendio-home-cons">
+  <section class="ascendio-home-section" aria-labelledby="ascendio-home-cons">
     <div class="ascendio-home-section-heading">
       <p class="ascendio-home-eyebrow">Nem tudo são flores (ou feitiços)</p>
       <h2 id="ascendio-home-cons">✧ Desvantagens de jogar na Ascendio</h2>
