@@ -33,3 +33,8 @@ primary = "green"
 accent = "amber"
 toggle.icon = "lucide/moon"
 toggle.name = "Alternar para modo claro"
+
+# Extensões oficiais necessárias aos cards Markdown da página de Regras.
+[project.markdown_extensions]
+attr_list = {}
+md_in_html = {}
