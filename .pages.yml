@@ -1,6 +1,8 @@
+
 media:
   input: docs/assets
   output: /assets
+
 content:
   - name: homepage
     label: Página inicial
@@ -14,10 +16,11 @@ content:
       - name: body
         label: Conteúdo
         type: rich-text
-  - name: regras
-    label: Regras
+
+  - name: primeiros-passos
+    label: Primeiros Passos
     type: collection
-    path: docs/regras
+    path: docs/primeiros-passos
     format: yaml-frontmatter
     fields:
       - name: title
@@ -26,10 +29,11 @@ content:
       - name: body
         label: Conteúdo
         type: rich-text
-  - name: primeiros-passos
-    label: Primeiros Passos
+
+  - name: regras
+    label: Regras
     type: collection
-    path: docs/primeiros-passos
+    path: docs/regras
     format: yaml-frontmatter
     fields:
       - name: title
